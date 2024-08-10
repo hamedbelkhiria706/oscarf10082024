@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>Mon Portfolio</header>
-    Bonjour, je suis [Nom et prénom], un développeur web passionné par la
-    création de sites web modernes et fonctionnels. Projet 1 Projet 2 Projet3
-    Projet 4 Contactez-moi Nom : Email : Message Envoyer
+    <header><h1>Mon Portfolio</h1></header>
+    <div class="presentation">
+      Bonjour, je suis [Nom et prénom], un développeur web passionné par la
+      création de sites web modernes et fonctionnels.
+    </div>
+    <div class="projets">
+      <div class="projet">Projet 1</div>
+      <div class="projet">Projet 2</div>
+      <div class="projet">Projet3</div>
+      <div class="projet">Projet 4</div>
+    </div>
+    <div class="contact">
+      <div class="contacttitle"><strong>Contactez-moi</strong></div>
+      <form>
+        <div>Nom :</div>
+        <input type="text" class="formtext" />
+        <div>Email :</div>
+        <input type="email" class="formtext" />
+        <div>Message:</div>
+        <textarea class="formtext"></textarea>
+        <div>Envoyer</div>
+        <button type="submit" class="envoyer">Envoyer</button>
+      </form>
+    </div>
   </body>
 </html>

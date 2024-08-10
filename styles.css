@@ -1,0 +1,64 @@
+/* Importation de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Styles généraux */
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #3498db;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 5px solid #2980b9;
+}
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Section de Présentation */
+.presentation {
+  font-family: "Roboto", sans-serif;
+  background-color: #ecf0f1;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+/* Galerie de Projets */
+.projets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  border: 1px solid #bdc3c7;
+}
+.projet {
+  padding: 20px 20px 20px 20px;
+}
+.projets .projet:hover {
+  background-color: aqua;
+}
+/* Section de Contact */
+.contacttitle {
+  text-align: center;
+}
+.contact {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+.formtext {
+  width: 100%;
+}
+.envoyer {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+.envoyer:hover {
+  background-color: #2980b9;
+}
